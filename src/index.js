@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './assets/css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,6 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // index.html içinde <div id='root'> a gidiyor
   document.getElementById('root')
 );
 
